@@ -1,0 +1,99 @@
+---
+title: "Programming2"
+author: "Juan Vazquez"
+date: "11 de mayo de 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 01
+
+https://medium.com/@warren2lynch/a-comprehensive-guide-for-flowchart-over-50-examples-785d6dfdc380
+
+## Week 02
+
+
+https://stackoverflow.com/questions/253030/best-way-to-format-if-statement-with-multiple-conditions
+https://idleloop.com/tutorials/introC/introC-7.php
+https://www.guru99.com/c-if-else-statement.html
+* [Nested](http://web.engr.oregonstate.edu/~rookert/cs162/ecampus-video/CS161/template/chapter_4/ifelse.html)
+* [ternary operators](https://www.geeksforgeeks.org/conditional-or-ternary-operator-in-c-c/) and [here](https://www.tutorialspoint.com/cprogramming/c_decision_making.htm)
+
+* [hackerrank exercises](https://www.hackerrank.com/domains/c?filters%5Bsubdomains%5D%5B%5D=c-conditionals-and-loops)
+
+
+#### class 5
+
+Loop sources [1](https://www.cprogramming.com/tutorial/c/lesson3.html), [2](https://www.geeksforgeeks.org/loops-in-c-and-cpp/) and [3](https://www.tutorialspoint.com/cprogramming/c_for_loop.htm)
+
+
+[exercises](https://www.w3resource.com/c-programming-exercises/for-loop/index.php) and [another](https://codeforwin.org/2015/06/for-do-while-loop-programming-exercises.html).
+
+
+
+
+## Week 03
+Python week
+
+### Class 1
+
+[Learnxinyminutes](https://learnxinyminutes.com/docs/python/)
+
+you can install [anaconda](https://www.anaconda.com/products/individual), [Rodeo](https://rodeo.yhat.com/)
+
+
+### Class 2
+
+* Convert ascii to num and [viceversa](http://code.activestate.com/recipes/65117-converting-between-ascii-numbers-and-characters/)
+
+* Do while in [python](https://coderwall.com/p/q_rd1q/emulate-do-while-loop-in-python)
+
+* Read about [comprehension lists](https://realpython.com/list-comprehension-python/)
+
+### Class 3
+
+https://fresh2refresh.com/c-programming/c-file-handling/fopen-fclose-gets-fputs-functions-c/
+
+https://www.geeksforgeeks.org/comprehensions-in-python/
+https://realpython.com/list-comprehension-python/
+https://learnxinyminutes.com/docs/python/
+https://www.programiz.com/python-programming/list-comprehension
+https://www.hackerrank.com/challenges/list-comprehensions/problem
+
+
+
+
+
+## Week 04
+
+Class 1
+
+* [python list comprehension fibonacci](https://stackoverflow.com/questions/42370456/how-can-i-create-the-fibonacci-series-using-pythons-list-comprehension).
+
+* [pure functions](https://medium.com/@anamartinezaguilar/funciones-puras-y-variables-1fb43a21c9fa), [1](https://www.campusmvp.es/recursos/post/programacion-funcional-inmutabilidad-y-funciones-puras.aspx, ) [2](https://platzi.com/tutoriales/1613-redux/1797-funciones-puras-una-breve-introduccion-a-la-programacion-funcional/) y [3 con otros enfoques](https://www.wolfram.com/language/elementary-introduction/2nd-ed/26-pure-anonymous-functions.html.es).
+
+
+Sobre programar mejor ver video de [Jerome Olvera](https://youtu.be/xCTQgL6ihoU). Programar es un porcentaje mínimo, la mayor parte del tiempo es hablar con alguien para determinar cómo resolver los problemas. 
+
+* [Python vs C comparison](https://www.upgrad.com/blog/python-vs-c-comparison/).
+
+
+## Week 05
+
+### Class 1
+
+* Pass by value and reference [1](https://es.stackoverflow.com/questions/1493/cu%C3%A1l-es-la-diferencia-entre-paso-de-variables-por-valor-y-por-referencia),  [2](https://medium.com/@roobre/paso-por-referencia-paso-por-valor-y-paso-de-una-referencia-1cc7fa06d7a), [3](http://www.oma.org.ar/omanet/cym98/valorref.htm).
+* About [constants](https://www.geeksforgeeks.org/constants-in-c-cpp/)
+
+
+## Week 07
+## Week 08
+## Week 09
+## Week 10
+## Week 11
+## Week 12
+## Week 13
+## Week 14

@@ -1,0 +1,150 @@
+---
+title: "big data class 2020"
+author: "Juan Vazquez"
+date: "May 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Week 01
+
+* MongoDB explanation in [5 minutes](https://www.youtube.com/watch?v=EE8ZTQxa0AM).
+
+* [MongoDB Atlas](https://docs.atlas.mongodb.com/getting-started/)
+* [SQL comparison](https://docs.mongodb.com/manual/reference/sql-comparison/)
+* [mongo shell methods](https://docs.mongodb.com/manual/reference/method/)
+
+For bugs updating from mongoDB 3.6 to 4.2 [1](https://stackoverflow.com/questions/34733340/mongodb-gpg-invalid-signatures) and [2](https://futurestud.io/tutorials/fix-ubuntu-debian-apt-get-keyexpired-the-following-signatures-were-invalid).
+
+
+### Week 02
+
+[MongoDB sample datasets](https://docs.atlas.mongodb.com/sample-data/available-sample-datasets/)
+[atlas sample queries](https://docs.atlas.mongodb.com/reference/atlas-search/tutorial/)
+
+Software to Install [docker](https://docs.docker.com/engine/install/) ¿cómo correrlo en las 3 plataformas?
+
+
+### Week 03
+
+Hadoop links [free online training](https://community.cloudera.com/t5/Support-Questions/I-have-to-practise-hadoop-hive-pig-sqoop-oozie-map-reduce/td-p/154089), [AWS](https://us-east-2.console.aws.amazon.com/console/home?nc2=h_ct&region=us-east-2&src=header-signin#), [quora](https://www.quora.com/How-can-I-practice-Hadoop-programs-online-for-free-Is-there-any-free-cloud-service-that-provides-Hadoop-platform-along-with-sample-data-to-play-with-I-want-to-submit-map-reduce-code-there-and-get-the-results-Is-there-any-such-service-available), [docker](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/DockerContainers.html).
+
+[cassandra](https://cassandra.apache.org/doc/latest/getting_started/index.html)
+
+* [big data vs data science](https://scontent.fcjs3-2.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/98196020_2936124596468271_8768436709881806848_o.jpg?_nc_cat=101&_nc_sid=ca434c&efg=eyJpIjoidCJ9&_nc_eui2=AeGAu1fDicKVRbD5wpxrJimaJvsLtw3bj7om-wu3DduPuq_e0F8k2AjtZZWVw1vk70w&_nc_ohc=Vi2rkUAHVBwAX89Phr5&_nc_ht=scontent.fcjs3-2.fna&_nc_tp=14&oh=681cfad4fa23af2d9dee4e267c760280&oe=5EEA6C37)
+
+#### Class 2
+
+* [landscape of big data technologies 2019](http://mattturck.com/wp-content/uploads/2019/07/2019_Matt_Turck_Big_Data_Landscape_Final_Fullsize.png) via [matturck](https://mattturck.com/data2019/).
+list of technologies
+* [datadog](https://www.datadoghq.com/product/)
+
+#### Class 3
+
+*  [JSON datasets](https://github.com/jdorfman/awesome-json-datasets#nobel-prize)
+
+
+### Week 04
+
+* [Datos censales](https://abxda.wordpress.com/2020/03/18/geo-big-data-con-datos-censales/) y [datalake](https://abxda.wordpress.com/2020/05/06/analizando-el-big-data-de-las-noticias-con-tu-micro-data-lake-baterias-incluidas/) con tecnologías como Docker y Spark por Abel Coronado Iruegas
+
+
+* Discuss [human face of big data](https://www.youtube.com/watch?v=4VeITe6EJDU) and its impact with coronavirus, like the failure of machine learning algorithms of predictive models of shoping.
+
+Book lists [1](https://solutionsreview.com/data-management/top-25-best-big-data-books-on-amazon-you-should-read/) and [2](https://www.goodreads.com/shelf/show/big-data).
+
+
+#### class 3
+
+NoSQL database comparisons
+
+* [social compare](https://socialcompare.com/en/comparison/nosql-databases-solution-cassandra-mongodb-couchdb)
+* [logz](https://logz.io/blog/nosql-database-comparison/)
+* [Action labs](https://www.accionlabs.com/articles/2018/4/9/choosing-a-nosql-database-technology-comparison-matrix)
+* [Digital ocean](https://www.digitalocean.com/community/tutorials/a-comparison-of-nosql-database-management-systems-and-models)
+
+
+
+### Week 05
+
+Stanford [course](https://www.cis.upenn.edu/~susan/cis700/syllabus.html).
+
+### DOCKER class
+
+* [play with docker](https://labs.play-with-docker.com/), [classroom](https://training.play-with-docker.com/alacart/) and [training](https://training.play-with-docker.com/).
+
+https://codeshare.io/ambnBX
+
+```{r eval=FALSE, echo=TRUE}
+# 1. pull docker image
+sudo docker pull kiwenlau/hadoop:1.0
+
+# 2. clone github repository
+git clone https://github.com/kiwenlau/hadoop-cluster-docker
+
+3. create hadoop network
+sudo docker network create --driver=bridge hadoop
+
+#acompleten plis
+sudo ./start-cointainers
+
+
+wget https://examplebenjamin.s3.amazonaws.com/data.zip
+
+hdfs dfs –mkdir –p /user/rawdata/netflix
+hdfs dfs –put data.zip /user/rawdata/netflix
+hdfs dfs –ls  /user/rawdata/netflix
+hdfs dfs –cat /user/rawdata/netflix
+hdfs dfs –rm –f /user/rawdata/netflix
+
+
+# 4. start container
+cd hadoop-cluster-docker
+sudo ./start-container.sh
+
+output:
+start hadoop-master container...
+start hadoop-slave1 container...
+start hadoop-slave2 container...
+root@hadoop-master:~# 
+
+# 5. start hadoop
+./start-hadoop.sh
+
+# 6. run wordcount
+./run-wordcount.sh
+```
+
+References [hadoop](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/DockerContainers.html).
+[Hadoop in docker](https://clubhouse.io/developer-how-to/how-to-set-up-a-hadoop-cluster-in-docker/).
+
+### Week 06
+### Week 07
+### Week 08
+### Week 09
+### Week 10
+### Week 11
+### Week 12
+### Week 13
+
+* [grafana](https://grafana.com/blog/2020/05/18/grafana-v7.0-released-new-plugin-architecture-visualizations-transformations-native-trace-support-and-more/?isource=hp)
+
+
+https://www.cloudera.com/downloads/hortonworks-sandbox.html
+
+
+
+## R Markdown
+
+[latex online editor ](https://latexbase.com/d/ea22422c-dee8-4428-8764-3a16a831cbab) and
+[bookdown](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#text-references) is a framework to deliver books.
+
+### Spark streaming and kafka
+
+some guides [post1](https://mapr.com/blog/quick-guide-spark-streaming/) and [post2](https://databricks.com/glossary/what-is-spark-streaming)
+
+

@@ -1,0 +1,99 @@
+---
+title: "R Notebook"
+output:
+  html_document: default
+  html_notebook: default
+---
+
+
+### week 04
+
+links of REGEX
+
+* [sed & awk book](http://shop.oreilly.com/product/9781565922259.do)
+* [python regex](https://docs.python.org/2/library/re.html)
+* [grep examples](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php)
+* [regex cheatsheet](https://lzone.de/cheat-sheet/Bash%20Regex)
+
+
+#### class 2
+
+ expos chapters 5-6
+ activity as data design critics: expose errors in dataviz figures from all over the internet
+ 
+
+### Week 05
+ 
+javascript free [ebooks](https://jsbooks.revolunet.com/) like [js 4 impatient](https://exploringjs.com/impatient-js/toc.html)
+
+[d3.js discussion](https://medium.com/@Elijah_Meeks/d3-is-not-a-data-visualization-library-67ba549e8520)
+
+[d3 tutorials](https://github.com/d3/d3/wiki/Tutorials)
+[d3 and react](https://github.com/freddyrangel/playing-with-react-and-d3)
+[d3 force layout example](https://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/)
+a guide to [coffescript](https://learnxinyminutes.com/docs/coffeescript/)
+
+d3 api [reference](https://github.com/d3/d3/blob/master/API.md) 
+ 
+### Week 06 
+
+
+[reddit dataviz missing](https://www.reddit.com/r/MachineLearning/comments/bhcq5b/d_tools_for_data_validationvisualizing_missing/?st=jv0dmrnx&sh=72001400)
+
+#### class 2: d3.js, concurrency
+
+Generators and [yield in python](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do).
+
+
+### Week 07
+
+
+
+[d3js cheatsheet 1](https://evilangelpixie.github.io/d3js/2015/04/29/javascript/)
+
+Jerome's class material
+Here are the [slides](https://docs.google.com/presentation/d/1IFtNltiSIW1LNeSflOgog0SphYnj60q_rtwAZa2O4UA)
+and 
+[Eloquent javascript book](https://eloquentjavascript.net/),
+[you don't know JS](https://github.com/getify/You-Dont-Know-JS),
+[mozilla](https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web),
+[repl.it example](https://repl.it/@jerolan/javascript-upy)
+Javascript is almost pythonic [JS ~ py](https://dev.to/massa142/javascript-is-almost-pythonic-3f8)
+[free code camp](https://www.freecodecamp.org/)
+
+Jupyter Notebookwith interactive widgets
+[How to create dynamic dashboards using ipywidgets](https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916)
+
+repl.it [online IDE](https://repl.it/site/docs/misc/quick-start)
+
+dataviz of [the Simpsons](https://towardsdatascience.com/the-simpsons-meets-data-visualization-ef8ef0819d13)
+
+
+## class 30th may
+[observablehq](https://observablehq.com/@observablehq/five-minute-introduction?collection=@observablehq/introduction),
+
+[is not js](https://observablehq.com/@observablehq/observables-not-javascript), it has its own [grammar](https://observablehq.com/@observablehq/observable-grammar) and a similar js [parser](https://github.com/observablehq/parser)
+
+
+
+
+[copy of jerome](https://repl.it/@juanvazqmont/javascript-upy) and
+
+another [d3js documentation](https://fcc.fiftykg.com/data-visualization-certification/data-visualization-with-d3/data-visualization-with-d3-learn-about-svg-in-d3.html)
+
+Irving Morales online [d3.js tutorial](https://youtu.be/Lgg5k3rdPXo)
+
+Class 18 jun Force
+https://medium.com/ninjaconcept/interactive-dynamic-force-directed-graphs-with-d3-da720c6d7811
+http://bl.ocks.org/jose187/4733747
+https://github.com/ninjaconcept/d3-force-directed-graph/tree/master/code
+https://flowingdata.com/2012/08/02/how-to-make-an-interactive-network-visualization/
+
+
+
+[wtf dataviz](https://viz.wtf/)
+
+
+
+[sketch dataviz graph design](https://uxknowledgebase.com/)
+

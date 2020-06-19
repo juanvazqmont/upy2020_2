@@ -122,8 +122,59 @@ root@hadoop-master:~#
 References [hadoop](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/DockerContainers.html).
 [Hadoop in docker](https://clubhouse.io/developer-how-to/how-to-set-up-a-hadoop-cluster-in-docker/).
 
+class 3
+
+* [SOLID](https://medium.com/@mari_azevedo/s-o-l-i-d-principles-what-are-they-and-why-projects-should-use-them-50b85e4aa8b6).
+
 ### Week 06
+
+#### Class 1
+
+NoSQL [Wikipedia](https://en.wikipedia.org/wiki/NoSQL)
+Paper de comparación de [NoSQL DB](https://www.researchgate.net/publication/278963532_Comparison_and_Classification_of_NoSQL_Databases_for_Big_Data)
+
+
+AWS on [local](https://github.com/localstack/localstack). 
+
+HDFS and hadoop fs links [1](https://www.thomashenson.com/hadoop-fs-commands/), [2](https://www.geeksforgeeks.org/hdfs-commands/), [3](https://data-flair.training/blogs/top-hadoop-hdfs-commands-tutorial/).
+
+
+#### class 2
+
+* [hadoop cheatsheet](https://images.linoxide.com/hadoop-hdfs-commands-cheatsheet.pdf).
+* [another docker way to mount](https://www.youtube.com/watch?v=Ho_gcZpzeqk).
+
+#### class 3
+
+word count
+* [mapreduce in python](https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/)
+* [another example](https://towardsdatascience.com/a-beginners-introduction-into-mapreduce-2c912bb5e6ac)
+
+* mention [continuous integration](https://circleci.com/continuous-integration/)
+
+#### RDDs
+
+* [some notes](http://www.mikelnino.com/2016/03/claves-principales-resilient-distributed-datasets-rdd-apache-spark.html)
+
+* [pyspark mapreduce example](https://annefou.github.io/pyspark/02-mapreduce/)
+
+
 ### Week 07
+
+#### class 1, spark MLlib
+
+* [Scikit-Learn](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
+* [MLlib reference](https://spark.apache.org/docs/latest/ml-guide.html).
+* [Precision & recall](https://pair.withgoogle.com/chapter/user-needs/).
+* [bias-variance tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/).
+* Revisar para mayor profundidad el libro de Hands on Machine Learning with scikit-learn, keras and tensorflow de Aurelien Geron.
+* H2O+ SPARK = [Sparkling water](https://www.h2o.ai/products/h2o-sparkling-water/).
+
+
+
+
+
+
 ### Week 08
 ### Week 09
 ### Week 10

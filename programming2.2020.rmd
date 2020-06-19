@@ -88,8 +88,41 @@ Sobre programar mejor ver video de [Jerome Olvera](https://youtu.be/xCTQgL6ihoU)
 * Pass by value and reference [1](https://es.stackoverflow.com/questions/1493/cu%C3%A1l-es-la-diferencia-entre-paso-de-variables-por-valor-y-por-referencia),  [2](https://medium.com/@roobre/paso-por-referencia-paso-por-valor-y-paso-de-una-referencia-1cc7fa06d7a), [3](http://www.oma.org.ar/omanet/cym98/valorref.htm).
 * About [constants](https://www.geeksforgeeks.org/constants-in-c-cpp/)
 
+### Class 2: structures
+
+* [return structs](https://dyclassroom.com/c/c-function-returning-structure) from a [function](https://stackoverflow.com/questions/9653072/return-a-struct-from-a-function-in-c).
+
+
+### Class 3 pointers and structures
+
+* Example [13-10](https://repl.it/@juanvazqmont/FocusedOptimisticNature#main.c)
+
+* Error exit handling [1](https://tldp.org/LDP/abs/html/exitcodes.html), [2](https://stackoverflow.com/questions/2425167/use-of-exit-function), [3](https://forgetcode.com/c/977-exit-terminate-the-program)
+
+* Strings as [pointers](https://www.cs.bu.edu/teaching/c/string/intro/).
 
 ## Week 07
+
+#### Class 1 memory allocation
+
+* [malloc1](https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C/Manejo_din%C3%A1mico_de_memoria)
+* [errores en memoria](http://www.it.uc3m.es/pbasanta/asng/course_notes/ch06s10.html)
+* [ejemplos](http://decsai.ugr.es/~jfv/ed1/c/cdrom/cap8/cap83.htm) y [2](https://www.linuxhispano.net/2011/08/15/reservar-memoria-dinamica-para-un-vector-en-c/).
+
+
+#### class 2, malloc 2
+
+* [1](http://www.cs.ucr.edu/~zhiyunq/teaching/cs153/lectures/C-tutorial/exercises-malloc.html)
+* [2](https://stackoverflow.com/questions/31625424/exercise-about-c-dynamic-memory-allocation)
+* [3](https://www.includehelp.com/c-programs/dynamic-memory-allocation-examples.aspx)
+* [4](https://www.geeksforgeeks.org/c-language-2-gq/dynamic-memory-allocation-gq/)
+* [5](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)
+* [6](https://www.w3resource.com/c-programming-exercises/pointer/)
+* [7](https://www.hackerrank.com/challenges/dynamic-array-in-c/problem)
+* [8](http://www.learntosolveit.com/cprogramming/)  ver el ejercicio 8.6
+
+
+
 ## Week 08
 ## Week 09
 ## Week 10
